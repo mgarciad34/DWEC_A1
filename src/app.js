@@ -95,7 +95,6 @@ function datos() {
       msg += 'El nombre tiene menos de 3 caracteres o mas de 30'
    }
 }
-
 function validarDNI(dni) {
    // Verificar la longitud del DNI (debe tener 9 caracteres)
    if (dni.length !== 9) {
