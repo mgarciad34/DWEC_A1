@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to bottom, white, rgb(127, 214, 255), black);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.formulario input{
+    border: 0;
+    border-radius: 10px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    color: white;
+}

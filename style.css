@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to bottom, white, rgb(127, 214, 255), black);
+}
+
+.padre{
+    height: 100vh;
+   display: grid;
+   
+   place-content: center;
+}
+
+.hijo{
+
+    border-radius: 10px;
+    overflow: o;
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to bottom, white, rgb(127, 214, 255));
+}
+
+.hijo h3{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.hijo label{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.hijo input{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 10px;
+    width: 350px;
+    height: 30px;
+}
+
+.hijo button{
+    border: none;
+    border-radius: 5px;
+    display: block;
+    justify-content: 200px;
+    margin: 0 auto;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
