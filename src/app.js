@@ -4,7 +4,7 @@ function iniciarSesion() {
    const user = 'usuario@root.com'
    const pass = 'rootroot'
 
-   var array = txtuser.split(""); 
+   var array = txtuser.split("");
    var msg = '';
 
    if (txtuser === "" || txtpass === "") {
@@ -38,14 +38,20 @@ function iniciarSesion() {
 
       if (txtpass.length >= 8) {
          if (txtuser == user && txtpass == pass) {
-            window.location = "misdatos.html";
+            if (msg != '') {
+               alert(msg)
+            } else {
+               window.location = "misdatos.html";
+            }
          } else {
             msg += 'Usuario o contraseña incorrectos'
          }
       } else {
          msg += 'La contraseña no cumple con el minimo de 8 caracteres'
       }
-      alert(msg)
+
+
+
    }
 }
 var objeto = {
